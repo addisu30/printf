@@ -23,6 +23,9 @@ char *grab_format(const char *s);
 int conversion_char(char *s);
 int conversion_string(char *s);
 
+/*printf_rot13.c */
+int printf_rot13(va_list args);
+
 /* get_validity_func.c */
 int (*get_validity_func(char c))(char *s);
 
