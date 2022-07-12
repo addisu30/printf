@@ -7,8 +7,7 @@
  * @s: format string ot check
  * Return: 1 if checks and 0 and exits otherwise
  */
-int main()
-int conversion_b(char *s)
+int main(char *s)
 {
 (void) s;
 return (1);
@@ -23,7 +22,7 @@ return (1);
  * Return: a pointer to the result
  */
 int main()
-char *make_binary(char *s, va_list l)
+char main(char *s, va_list l)
 {
 unsigned int n;
 char *result;
