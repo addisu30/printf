@@ -7,13 +7,11 @@
  * @s: format string ot check
  * Return: 1 if checks and 0 and exits otherwise
  */
-int main(char *s)
+int conversion_b(char *s)
 {
 (void) s;
 return (1);
 }
-
-
 
 /**
  * make_binary - make an octal string
@@ -21,8 +19,7 @@ return (1);
  * @l: a va_list
  * Return: a pointer to the result
  */
-int main()
-char main(char *s, va_list l)
+char *make_binary(char *s, va_list l)
 {
 unsigned int n;
 char *result;
