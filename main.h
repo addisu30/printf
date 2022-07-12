@@ -7,6 +7,7 @@
 int _printf(const char *format, ...);
 void error_format(const char *format);
 int no_conversion(char);
+int _putchar(char c);
 
 /*in buffer_functions1.c*/
 char *_flush(char *buffer);
