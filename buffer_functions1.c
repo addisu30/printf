@@ -1,5 +1,4 @@
 /**
- * this file contains functions related to the use of the buffer
  * the buffer length is BUF_LENGTH, defined elswhere now
  * maybe move it to header file
  * The buffer is created, malloc'ed elsewhere
@@ -8,10 +7,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _flush - fill the buffer with \0
- * @buffer: buffer;
- * The length of the buffer is defned in a macro
- * Return: pointer to buffer
+ *_flush - fill the buffer with 0
+ *@buffer: buffer;
+ *The length of the buffer is defned in a macro
+ *Return: pointer to buffer
  */
 char *_flush(char *buffer)
 {
