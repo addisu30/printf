@@ -18,7 +18,7 @@ i = 0;
 j = (*s == '%') ? 1 : 0; /*if start with %*/
 while (*(s + j) != 'c' && _is_digit(*(s + j)))
 {
-i = 10 * i + *(s + j) - '0';
+i = 10 * i + *(s + j) -'0';
 ++s;
 }
 if (i == 0)
