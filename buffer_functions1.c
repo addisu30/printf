@@ -2,10 +2,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * _flush - fill the buffer with \0
- * @buffer: buffer;
+ * _flush - Fill the buffer with decimal notation \0
+ * @buffer: buffer for the flush
  * The length of the buffer is defned in a macro
- * Return: pointer to buffer
+ * Return: Always 0.
  */
 char *_flush(char *buffer)
 {
@@ -18,16 +18,16 @@ return (buffer);
 
 
 /**
- * fill_buffer - fills the buffer with string s
- * @buffer: buffer
- * @s: a string to fill buffer with
+ * fill_buffer - fills the buffer with string s conversions
+ * @buffer: buffer with strings int
+ * @s: a string to fill buffer with string
  * @count_c: number of chars put in buffer before s
  * IMPORTANT: update count_c in printf only after filling the buffer, I need to
  * know here at which index I can start to append to the buffer
  * @s_length: length of string, not required, but if I have it rigth away
  * in printf I might just pass it instead of calling strlen here
  * Fills the buffer starting at index count_c with string s of length s_length
- * Return: pointer to buffer
+ * Return: Always 0.
  */
 char *fill_buffer(char *buffer, const char *s, int count_c, int s_length)
 {
@@ -56,11 +56,11 @@ return (buffer);
 }
 
 /**
- * print_buffer - prints the buffer
+ * print_buffer - prints the buffer array for decimal conversion
  * @buffer: a buffer, char array
  * @length: number of characters I need to print
  *
- * Return: void
+ * Return: Always 0.
  */
 void print_buffer(char *buffer, int length)
 {
