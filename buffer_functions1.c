@@ -23,8 +23,6 @@ return (buffer);
 }
 
 
-
-
 /**
  * fill_buffer - fills the buffer with string s
  * @buffer: buffer
