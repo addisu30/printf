@@ -1,9 +1,3 @@
-/**
- * this file contains functions related to the use of the buffer
- * the buffer length is BUF_LENGTH, defined elswhere now
- * maybe move it to header file
- * The buffer is created, malloc'ed elsewhere
- */
 #include <unistd.h>
 #include "main.h"
 #include <stdio.h>
