@@ -6,10 +6,11 @@
 #include <limits.h>
 
 /**
- * conversion_di - checks validity of d and i
- * @s: format string ot check
- * Return: 1 if checks and 0 and exits otherwise
- */
+* conversion_di - checks validity of d and i
+* @s: format string ot check
+* Return: 1 if checks and 0 and exits otherwise
+*/
+
 int conversion_di(char *s)
 {
 (void) s;
@@ -17,10 +18,10 @@ return (1);
 }
 
 /**
- * _itoa - transforms a number into a string
- * @n: an int
- * Return: a string
- */
+* _itoa - transforms a number into a string
+* @n: an int
+* Return: a string
+*/
 char *_itoa(int n)
 {
 int l, tens, i, min;
@@ -56,11 +57,11 @@ return (number);
 }
 
 /**
- * make_decimal - creates formatted output
- * @s: format string
- * @vl: arguement to format
- * Return: formatted string;
- */
+* make_decimal - creates formatted output
+* @s: format string
+* @vl: arguement to format
+* Return: formatted string;
+*/
 
 char *make_decimal(char *s, va_list vl)
 {
