@@ -1,4 +1,4 @@
-Printf.
+# Printf.
 # Parameters
  > **format** -> C string that contains the text to be written to stdout.
  
